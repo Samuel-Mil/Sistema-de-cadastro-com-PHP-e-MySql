@@ -13,7 +13,3 @@ Esse sistema é um sistema basico que criei para testar minhas abilidades com PH
 Eu usei tecnicas simples e práticas para ser facil de ler
 
 Você pode usar esse sistema onde quiser
-=======
-# Sistema-de-cadastro-com-PHP-e-MySql
-Esse sistema é um sistema basico que criei para testar minhas abilidades com PHP e MySql.
-
