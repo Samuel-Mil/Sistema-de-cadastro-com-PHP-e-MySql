@@ -1,0 +1,28 @@
+/* Animações Gerais do Site */
+
+//Animacão dos input's para aparecer da esquerda para a direita.
+.form-container form input[type=text],input[type=password]{
+    animation: inputShow 1s;
+}
+.form-container form input[type=submit]{
+    animation: buttonShow 2s;
+}
+
+@keyframes inputShow{
+    from{
+        transform: translateX(-45%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+//Animação pra do button para subir de baixo pra cima
+@keyframes buttonShow{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

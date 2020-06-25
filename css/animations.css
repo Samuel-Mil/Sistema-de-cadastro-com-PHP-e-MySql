@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* Animações Gerais do Site */
+.form-container form input[type=text], input[type=password] {
+  animation: inputShow 1s; }
+
+.form-container form input[type=submit] {
+  animation: buttonShow 2s; }
+
+@keyframes inputShow {
+  from {
+    transform: translateX(-45%); }
+  to {
+    transform: translateX(0); } }
+@keyframes buttonShow {
+  from {
+    transform: translateY(100%); }
+  to {
+    transform: translateY(0); } }
+
+/*# sourceMappingURL=animations.css.map */

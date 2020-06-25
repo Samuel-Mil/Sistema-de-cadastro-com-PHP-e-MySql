@@ -1,0 +1,12 @@
+//External files
+@import 'animations';
+@import 'responsive';
+@import 'reset';
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{font-family: "Roboto", Arial, Helvetica, sans-serif !important;}
+
+//Vars
+$principal-text-color: #ff7b00;
+$back-color: #1c1c1c;

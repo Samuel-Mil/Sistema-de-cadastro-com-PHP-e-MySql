@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* Animações Gerais do Site */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+.form-container form input[type=text], input[type=password] {
+  animation: inputShow 1s; }
+
+.form-container form input[type=submit] {
+  animation: buttonShow 2s; }
+
+@keyframes inputShow {
+  from {
+    transform: translateX(-45%); }
+  to {
+    transform: translateX(0); } }
+@keyframes buttonShow {
+  from {
+    transform: translateY(100%); }
+  to {
+    transform: translateY(0); } }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+input:focus, textarea:focus {
+  border: 0;
+  outline: 0; }
+
+.erro {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color: #ff4545;
+  color: #FFF;
+  font-size: 17px;
+  line-height: 40px; }
+
+.success {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color: #45ff55;
+  color: #FFF;
+  font-size: 17px;
+  line-height: 40px; }
+
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif !important; }
+
+body {
+  background-color: #1c1c1c; }
+
+section.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  section.form-container form {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    -webkit-box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.75);
+    background-color: #0d0d0d; }
+    section.form-container form h2 {
+      color: #ff7b00;
+      text-align: center;
+      font-weight: lighter;
+      font-size: 28px;
+      padding-top: 20px; }
+    section.form-container form fieldset {
+      max-width: 300px;
+      margin: 30px auto;
+      border: 0; }
+      section.form-container form fieldset input[type=text], section.form-container form fieldset input[type=password] {
+        width: 100%;
+        height: 50px;
+        padding-left: 8px;
+        margin: 15px 0;
+        background: transparent;
+        color: #717171;
+        font-size: 17px;
+        border: 0;
+        border-bottom: 2px solid #ff7b00; }
+      section.form-container form fieldset input[type=submit] {
+        width: 100%;
+        height: 40px;
+        margin-top: 25px;
+        color: #FFF;
+        font-size: 17px;
+        cursor: pointer;
+        border: none;
+        background-color: #ff7b00; }
+
+/*# sourceMappingURL=style.css.map */
